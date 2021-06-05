@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background: rgba(0, 0, 0, 0.753);
+  padding: 0 16px;
+}
+
+header {
+  background-color: rgba(149, 247, 57, 0.897);
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgb(122, 241, 138);
+  text-shadow: 2px 2px 4px #000000;
+  text-align: center;
+}
+
+header h1 {
+  color: #fff;
+  font-family: "Serif", cursive;
+  font-weight: 200;
+}
+
+footer {
+  position: fixed;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+footer p {
+  color: rgba(0, 0, 0, 0.637);
+}
+.note {
+  background: rgba(255, 255, 255, 0.89);
+  text-align: center;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px rgb(30, 255, 0);
+  padding: 10px;
+  width: 400px;
+  margin: 16px;
+  float: left;
+}
+.note h1 {
+  font-size: 1.1em;
+  margin-bottom: 6px;
+}
+.note p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+.image {
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 4px;
+  padding: 5px;
+  width: 350px;
+}
